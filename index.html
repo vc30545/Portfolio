@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My Personal-Protfolio Website</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <b class="name">Vishal's Portfolio</b>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#about">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="home">
+        <seection class="firstSection">
+            <div class="leftSection">
+                Hi, My name is
+                <span class="purple">Vishal</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div>
+                    <button class="btn"><a href="img/Vishal's Resume.pdf" download>Download Resume</a></button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="img/r-bg.png" alt="">
+            </div>
+        </seection>
+        <hr>
+    </main>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/person.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="h1-text">About Me</h1>
+                    <p class="p1">
+                        I am Vishal Chaudhari, a seasoned software engineer with 1.5 years of experience, specializing
+                        in Java, Spring Framework, and MSSQL, particularly within the banking sector. My career at M2P
+                        Fintech has honed my abilities in backend API development, utilizing Play and Spring frameworks
+                        to architect scalable solutions. Proficient in microservices architecture, I ensure the security
+                        of API endpoints through Spring Security, safeguarding financial data integrity.
+
+                        Key projects include the CIBIL Backend API and Trade Finance Backend API, where I orchestrated
+                        intricate financial interactions securely. My Bachelor's degree in Engineering from Jawahar
+                        Education Societys Annasaheb Chudaman Patil Engineering College, Navi Mumbai, underpins my
+                        technical acumen.
+
+                        Beyond work, I thrive in hackathons, exploring new technologies, and enjoy reading and
+                        traveling. Fluent in English, Hindi, and Marathi, I effectively communicate across diverse
+                        teams. Eager for new challenges, I am committed to continuous growth in the dynamic realm of
+                        software engineering.
+
+
+
+
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('experince')">Experince</p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+
+                    <div class="tab-contents active-tab" id="experince">
+                        <ul>
+                            <li>
+
+                                <strong>Software Engineer</strong>
+                                <p><b>M2P Fintech</b></p>
+                                <p><em>07/2022 - Present</em></p>
+                                <p><b>MIP Fintech presides solutions across payments, lending, and
+                                        banking.</b>
+                                </p>
+
+                            </li>
+                            <li>
+
+                                <strong>Achievements/Tasks</strong>
+                                <ul>
+                                    <li>Expertly developed and deployed backend APIs using Play and Spring frameworks,
+                                        showcasing proficiency in microservices architecture for scalable and efficient
+                                        software solutions.</li>
+                                    <li>Gained in-depth knowledge of the Play and Spring Framework, Spring Boot, honed
+                                        skills in MSSQL database management, and mastered the intricacies of financial
+                                        data
+                                        handling.</li>
+                                    <li>Employing Spring Security to ensure all API endpoints are secure, authenticated,
+                                        and
+                                        resistant to threats.
+                                </ul>
+                            </li>
+                        </ul>
+                        </li>
+                    </div>
+                    <div class="tab-contents  " id="skills">
+                        <ul>
+                            <li>Core Java</li>
+                            <li>Hibernate</li>
+                            <li>Play Framework</li>
+                            <li>Spring Boot</li>
+                            <li>Spring Security</li>
+                            <li>PostgreSQL</li>
+                            <li>REST API</li>
+                            <li>GIT</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>SQL Database</li>
+                            <li>Data Structures</li>
+                            <li>Problem Solving</li>
+                            <li>Microservices</li>
+                            <li>MySQL</li>
+                            <li>Node.js</li>
+                            <li>JPA (Java Persistence API)</li>
+                    </div>
+
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li>
+                                <h2><strong>CIBIL Backend API</strong></h2>
+                                <p><em>07/2022 - 10/2022</em></p>
+                                <ul>
+                                    <li>Designed and implemented a backend API for the <b>CIBIL</b> project
+                                        using <b>Java</b> and <b>Play Framework</b></li>
+                                    <li>Orchestrated complex database interactions using <b>MSSQL</b> for fast
+                                        and accurate data retrieval</li>
+                                    <li>Successfully deployed and currently maintaining a mission-critical application
+                                        within the infrastructure of three prominent banking institutions</li>
+                                </ul>
+
+                                <h2><strong>Trade Finance Backend API Project</strong></h2>
+                                <p><em>10/2022 - 05/2023</em></p>
+                                <ul>
+                                    <li>Utilized Java alongside the <b>Spring Framework</b> to create scalable and maintainable
+                                        code</li>
+                                    <li>Implemented <b>Spring Boot</b> for rapid application development, enabling
+                                        microservices capabilities for modular backend components</li>
+                                    <li>Ensured end-to-end security of the API using <b>Spring Security</b>, incorporating
+                                        authentication, authorization, and data protection mechanisms</li>
+                                    <li>Orchestrated complex financial data interactions and management using
+                                        <b>PostgreSQL</b>, ensuring data consistency, integrity, and optimal
+                                        performance
+                                    </li>
+                                </ul>
+
+                                <h2><strong>Debit Card Management Backend API</strong></h2>
+                                <p><em>06/2022 - Present</em></p>
+                                <ul>
+                                    <li>Engineered backend APIs for Debit Card Management, leveraging Play & <b>Spring
+                                        framework</b>, and microservices</li>
+                                    <li>Implemented security, authentication, and <b>MSSQL</b> for optimizing
+                                        system efficiency and enabling streamlined debit card operations</li>
+                                    <li>Managed intricate database operations using <b>MSSQL</b>, ensuring
+                                        consistent, efficient, and accurate data storage and retrieval for debit
+                                        information</li>
+                                    <li>Successfully deployed and currently maintaining a mission-critical application
+                                        within the infrastructure of three prominent banking institutions</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+
+                                <strong>Educational Qualifications</strong>
+                                <p>Bachelor of Engineering (I.T.)</p>
+                                <p>Jawahar Education Society's Annasaheb Chudaman Patil Engineering College, Navi
+                                    Mumbai</p>
+                                <p><em>07/2018 - 07/2022</em></p>
+                            </li>
+                            <li>
+                                <p><strong>M. H. Highschool & Jr. College Of Thane</strong></p>
+                                <p>HSC (Science)</p>
+                                <p><em>06/2016 - 04/2017</em></p>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="left-contact">
+                <h1 class="h1-text">Contact Me</h1>
+                <p> <img class="invert" src="icons/email.svg" alt="">vc30545@gmail.com</p>
+                <p><img class="invert" src="icons/contact.svg" alt="">8329496746</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/vishal-chaudhari-73304b16a/" target="_blank"><img class="invert" src="icons/linkedin.svg"
+                            alt=""></a>
+                    <a href="https://www.instagram.com/vishalchaudhari_01" target="_blank"><img class="invert"
+                            src="icons/inst.svg" alt=""> </a>
+                    <!-- <a href="https://www.facebook.com/" target="_blank"><img class="invert" src="icons/facebook.svg"
+                            alt=""></a> -->
+                </div>
+            </div>
+            <div class="right-contact">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="E-mail" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <div class="buttons">
+                        <button class="btn2" type="submit">Submit</button>
+                        <button class="btn2" type="reset">Reset</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <hr>
+    </section>
+    <footer>
+        <div class="footer">
+            <p>Copyright &copy; 2024 Vishal's Protfolio. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- -------------------JavaScript------------------- -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Software Engineer.', 'Backend Developer.'],
+            typeSpeed: 50,
+        });
+
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+
+
+</body>
+
+</html>

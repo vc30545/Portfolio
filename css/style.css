@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(27, 25, 25);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    /* background: url(img/bg1.png)  no-repeat ; */
+
+}
+
+.name{
+    color:#1cd4f5 ;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: #325b6b;
+}
+
+nav ul {
+    display: flex;
+    /* justify-content: center; */
+    gap: 23px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+nav ul li a:hover {
+
+    color: rgb(241, 147, 178);
+    /* font-size: 1.1em; */
+    color: white;
+    font-weight: 500;
+    border-radius: 12px;
+    background-color: #1cd4f5;
+    transform: scale(1);
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 0;
+    height: 60vh;
+}
+
+.firstSection>div {
+    width: 40%;
+}
+
+.leftSection {
+    font-size: 3rem;
+    /* margin: 50px 0; */
+}
+
+.btn {
+    padding: 15px 30px;
+    margin: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    background-color: #1cd4f5;
+    display: inline-block;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+.btn:hover {
+    padding: 15px 30px;
+}
+
+.rightSection img {
+    width: 80%;
+    /* margin: 40px 0; */
+}
+
+.purple {
+    color: #1cd4f5;
+}
+
+#element {
+    color: #1cd4f5;
+}
+
+hr {
+    border: 0;
+    width: 90vw;
+    height: 1.5px;
+    background-color: #45a5e4;
+    margin: auto;
+}
+
+#about .container .row {
+    min-height: 80vh;
+}
+
+.about-col-1 img {
+    width: 288px;
+    height: 300px;
+    margin: 50px 150px;
+    flex-basis: 35%;
+}
+
+.about-col-2 {
+    margin: 30px 0px;
+}
+
+.p1 {
+    margin: 30px;
+    font-weight: 550;
+    word-break: keep-all;
+    word-spacing: 4px;
+}
+
+#about .row {
+    display: flex;
+    justify-content: space-between;
+    /* font-size: ; */
+    flex-basis: 60%;
+}
+
+.h1-text {
+    font-size: 3rem;
+    color: #1cd4f5;
+}
+
+
+.tab-titles {
+    display: flex;
+    gap: 34px;
+    margin: 20px 0px;
+    /* font-weight: 700; */
+}
+
+.tab-links {
+    margin-right: 50px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #1cd4f5;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.tab-links.active-link::after {
+    width: 50%;
+}
+
+.tab-contents {
+    list-style: none;
+    margin: 20px 20px;
+    /* font-size: 1.3rem; */
+    line-height: 29px;
+}
+
+.tab-contents ul li {
+    list-style: none;
+}
+
+.tab-contents ul li strong {
+    color: #1cd4f5;
+    font-size: 20px;
+}
+
+.tab-contents {
+    display: none;
+}
+
+.tab-contents.active-tab {
+    display: block;
+}
+
+.tab-contents ul li p a {
+    color: white;
+}
+
+.tab-contents ul li p a:hover {
+    color: #1cd4f5;
+}
+
+/* contact */
+.invert {
+    filter: invert(1);
+}
+
+#contact .container {
+    margin: 34px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 34px;
+}
+
+.left-contact {
+    margin: 40px 0px;
+}
+
+.left-contact p {
+    display: flex;
+    margin: 30px 0px;
+    gap: 20px;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    transition:0.5s ease-in-out;
+}
+
+.social-icons :hover {
+    /* width: 21px; */
+    transform: scale(1.1);
+}
+
+.btn2 {
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    background-color: #1cd4f5;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color: #0ebede;
+    padding: 12px;
+    margin: 15px 0;
+    color: white;
+    font-size: 18px;
+    border-radius: 18px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.footer {
+    margin: 12px;
+    height: 12px;
+    color: rgb(232, 224, 224);
+    text-align: center;
+    font-weight: bold;
+}
+
+/* ---------Add media queries--------- */
+
+@media (max-width: 1200px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        gap: 1px;
+    }
+
+    nav ul li {
+        padding: 10px 0px;
+    }
+
+    nav ul li a {
+        padding: 10px 0px;
+    }
+
+
+    .firstSection {
+        height: 50vh;
+        margin: 0px;
+    }
+
+    .leftSection {
+        font-size: 1.5rem;
+    }
+
+    .rightSection img {
+        height: 30vh;
+        width: 30vw;
+    }
+
+    .btn {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .btn:hover {
+        padding: 10px;
+        font-size: 11px;
+    }
+
+
+    .about-col-1 img {
+        width: 200px;
+        height: 200px;
+        margin: 30px 50px;
+
+    }
+
+    .h1-text {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width:650px) {
+
+    nav ul li {
+        margin: 0px 5px;
+    }
+
+    #about .row {
+        display: block;
+    }
+
+    .about-col-1 img {
+        margin: 30px auto;
+        display: block;
+    }
+
+    .h1-text {
+        text-align: center;
+    }
+
+    .tab-titles {
+        gap: 3px;
+        justify-content: space-around;
+
+    }
+
+    .tab-links {
+        margin-right: 10px;
+        margin-left: 5px;
+        text-align: center;
+    }
+
+    #contact .container {
+        display: block;
+    }
+
+    .left-contact p {
+        justify-content: center;
+    }
+
+    .social-icons {
+        justify-content: space-evenly;
+    }
+
+    .btn2 {
+        padding: 15px;
+        font-size: 10px;
+    }
+}
